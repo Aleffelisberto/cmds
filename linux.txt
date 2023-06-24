@@ -1,0 +1,22 @@
+# VMS
+VBoxManage list vms                         # list vms on VirtualBox
+VBoxManage startvm "Win7"                   # start "Win7" vm
+
+# SMB
+smbclient -L 10.129.212.160                 # list SMB shares
+smbclient //10.129.212.160/backups          # establish a connection through a share
+
+# tmux
+tmux                                        # multiplexes terminal
+    ctrl + b "                              # split horizontally
+    ctrl + b %                              # split vertically
+    ctrl + b ,                              # rename tab
+    ctrl + b p                              # navigate to previous tab
+    ctrl + b n                              # navigate to next tab
+
+# python tools
+impacket-mssqlclient                        # exploring microsoft sql servers
+impacket-psexec                             # interactive shell on windows hosts
+
+# files
+gzip -d file.gz                             # unzip .gzip files

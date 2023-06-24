@@ -1,0 +1,9 @@
+# cmd
+sysinfo                                                 # system information
+whoami \all                                             # current user information
+echo %cd%                                               # show current directory
+powershell -c pwd                                       # execute some pws command
+
+# powershell
+Get-ChildItem *.txt -Path C:\ -recurse                  # search for file recursively
+Get-Content -Path .\file.txt                            # show file content
